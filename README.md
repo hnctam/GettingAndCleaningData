@@ -10,3 +10,12 @@
 ## then we will filter data with mean and stdev columns
 ## Bind the activity names as "WALKING", "WALKING_UPSTAIRS", "WALKING_DOWNSTAIRS", "SITTING", "STANDING", "LAYING"
 ## and write tiny data to destination file using write.table() and row.names=FALSE
+# How to run
+## Download the data https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
+## Extract the zip data to [Working_Folder]/data/UCI HAR Dataset
+## Kindly check the existing of this path to make sure setup properly
+### [Working_Folder]\data\UCI HAR Dataset\features.txt
+## Create folder [Working_Folder]\output
+## Type: source("run_analysis.R") in R-console
+## Type: build_tidy_dataset()
+## Check result in folder [Working_Folder]\output
